@@ -93,7 +93,7 @@ export default function StudioExperience() {
 
     <section className="process"><div className="section-label light"><span>03</span> Process</div><div className="process-heading"><h2>制作の流れ</h2><p>相談から公開後の改善まで。</p></div><ol>{process.map(([number,title,text]) => <li key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></li>)}</ol></section>
 
-    <section className="contact" id="contact"><p className="eyebrow">Contact</p><h2>ご相談は、<br/>メッセージから。</h2><p>サイトのURLと気になる点だけでも構いません。内容を確認して、次にできることをメッセージでお返しします。</p><a href="mailto:scraft.contact.jp@gmail.com">scraft.contact.jp@gmail.com <span>↗</span></a></section>
+    <section className="contact" id="contact"><p className="eyebrow">Contact</p><h2>気になっていることから</h2><p>サイトのURLと気になる点だけでも構いません。内容を確認して、次にできることをメッセージでお返しします。</p><a href="mailto:scraft.contact.jp@gmail.com">scraft.contact.jp@gmail.com <span>↗</span></a></section>
     <footer><a className="wordmark" href="#content">S.Craft</a><p>Web design &amp; development</p><span>© 2026 S.Craft</span></footer>
   </main>;
 }
